@@ -1,6 +1,7 @@
 from random import randint
 
 import pygame
+
 from game import Game
 
 
@@ -9,7 +10,7 @@ def main():
     screen = pygame.display.set_mode((500, 500))
     clock = pygame.time.Clock()
 
-    game = Game(10, 8)
+    game = Game(10, 5)
 
     running = True
     while running:

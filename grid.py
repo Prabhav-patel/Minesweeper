@@ -1,5 +1,7 @@
 from random import randint
+
 from tile import Tile
+
 
 class Grid:
     def __init__(self, size, bombs_num):
